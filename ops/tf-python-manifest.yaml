@@ -14,7 +14,7 @@ spec:
         spec:
             containers:
             - name: tf-python
-              image: jmitchel3/tf-python:latest
+              image: britcey/tf-python:latest
               ports:
                 - containerPort: 8080
               env:
