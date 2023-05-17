@@ -21,10 +21,8 @@ spec:
                 - name: PORT
                   value: "8080"
                 - name: ENV_MESSAGE
-                  value: "Hello from Kubernetes"
-                - name: ENV_MESSAGE2
-                  value: "Second message"
-               
+                  value: "Hello from Kubernetes - new message"
+              
 
 ---
 apiVersion: v1
