@@ -22,6 +22,9 @@ spec:
                   value: "8080"
                 - name: ENV_MESSAGE
                   value: "Hello from Kubernetes"
+                - name: ENV_MESSAGE2
+                  value: "Second message"
+               
 
 ---
 apiVersion: v1
