@@ -21,7 +21,10 @@ spec:
                 - name: PORT
                   value: "8080"
                 - name: ENV_MESSAGE
-                  value: "Hello from Kubernetes"
+                  valueFrom:
+                    configMapRef:
+                      name: tf-python-cm
+                      key: ENV_MESSAGE
 
 ---
 apiVersion: v1
